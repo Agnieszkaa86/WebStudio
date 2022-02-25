@@ -1,4 +1,4 @@
-.logo__link{
+.logo{
 
     margin-right: 93px;
     padding-top: 24px;
@@ -10,20 +10,18 @@
     line-height: 1.192;
     letter-spacing: 0.03em;
     color: var(--main-color);
-}
-.logo__accent--dark{
-    
-    font-family: var(--secondary-font);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.192;
-    letter-spacing: 0.03em;
-    color: var(--secondary-color)
 
-}
-.logo__accent--light{
+        &__accent--dark{
+        font-family: var(--secondary-font);
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 1.192;
+        letter-spacing: 0.03em;
+        color: var(--secondary-color);
+        }
 
-    color: var(--light-color);
-
-}
+        &__accent--light{
+        color: var(--light-color);
+        }
+    }

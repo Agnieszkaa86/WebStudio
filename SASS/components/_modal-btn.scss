@@ -1,8 +1,4 @@
-.modal__btn:focus,
-.modal__btn:hover{
-    color: var(--light-color);
-    background: var(--main-color);
-}
+
 .modal__btn{
 
     font-weight: 500;
@@ -14,4 +10,10 @@
     color: var(--secondary-color);
     background: var(--bg-light);
     border-radius: 4px;
+
+        &:focus,
+        &:hover{
+        color: var(--light-color);
+        background: var(--main-color);
+        }
 }
