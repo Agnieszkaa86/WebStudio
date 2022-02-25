@@ -1,0 +1,17 @@
+.modal__btn:focus,
+.modal__btn:hover{
+    color: var(--light-color);
+    background: var(--main-color);
+}
+.modal__btn{
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--secondary-color);
+    background: var(--bg-light);
+    border-radius: 4px;
+}
