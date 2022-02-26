@@ -29,9 +29,9 @@
 		fill: currentColor;
 	}
 
-	&__link:hover,
-	&__link:focus {
-		border-color: var(--main-color);
-		color: var(--main-color);
-	}
+		&__link:hover,
+		&__link:focus {
+			border-color: var(--main-color);
+			color: var(--main-color);
+		}
 }

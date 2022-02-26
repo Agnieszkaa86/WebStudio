@@ -1,4 +1,5 @@
 .socials__link {
+	
 	display: flex;
 	width: 44px;
 	height: 44px;
@@ -13,7 +14,7 @@
     		background-color: var(--main-color);
     		fill: var(--light-color);
 		}
-		
+	
 		&--dark{
     		display: flex;
 			width: 44px;
@@ -30,9 +31,13 @@
 		&--dark:focus {
   			background-color: var(--main-color);
   			fill: var(--light-color);
+		}				
+	}
+.socials__item:not(:last-child) {
+	margin-right: 10px;
 		}
 
-.socials__item--break:not(:last-child) {
-	padding-right: 10px;
-		}
+.socials__icon{
+    width: 20px;
+    height: 20px;
 }
