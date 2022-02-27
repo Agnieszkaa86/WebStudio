@@ -620,7 +620,7 @@ a {
   align-content: center;
 }
 
-.atributes--icon--box {
+.atributes__icon__box {
   display: flex;
   align-items: center;
   justify-content: center;
